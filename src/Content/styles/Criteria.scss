@@ -1,0 +1,56 @@
+.criteria-section {
+  display: flex;
+  gap: 10rem;
+  width: 100%;
+  position: relative;
+  margin-block: 10rem;
+  .title {
+    width: 15.2%;
+    h5 {
+      font-size: var(--content-title-size-s);
+      text-transform: uppercase;
+      font-weight: 400;
+      color: var(--accent-clr);
+    }
+  }
+  .criteria-container {
+    border-top: 2px solid var(--accent-clr);
+    width: 127%;
+    margin-top: 1rem;
+    .criteria-content:first-child {
+      margin-top: 3rem;
+    }
+    .criteria-content {
+      cursor: pointer;
+      .content-title {
+        transition: 400ms;
+        border-bottom: 2px solid var(--opacity-accent-clr);
+        h1 {
+          font-family: var(--secondary-font);
+          font-size: var(--header-size-l);
+          text-align: left;
+          color: var(--accent-clr);
+        }
+      }
+      .criteria-des {
+        height: 0;
+        overflow: hidden;
+        transition: 400ms;
+        p {
+          color: var(--accent-clr);
+        }
+      }
+      .content-title:hover + .criteria-des {
+        height: 100px;
+        margin-block: 2rem;
+      }
+      .content-title:hover {
+        border-bottom: 2px solid var(--accent-clr);
+        h1:hover {
+          transition: 400ms;
+          color: var(--secondary-clr);
+        }
+      }
+    }
+  }
+}

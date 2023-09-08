@@ -1,0 +1,47 @@
+.diff-section {
+  display: flex;
+  gap: 10rem;
+  width: 100%;
+  position: relative;
+  .title {
+    h5 {
+      font-size: var(--content-title-size-s);
+      text-transform: uppercase;
+      font-weight: 400;
+      color: var(--accent-clr);
+    }
+  }
+}
+.diff-content-title,
+.diff-content-description {
+  width: 50%;
+}
+.diff-container {
+  border-top: 2px solid var(--accent-clr);
+  margin-top: 2rem;
+  width: 80%;
+  padding-top: 4rem;
+}
+.diff-content {
+  display: flex;
+  margin-block: 2rem;
+  .diff-content-title {
+    h3 {
+      display: inline;
+      font-size: var(--content-title-size-l);
+      font-weight: 400;
+    }
+    span {
+      float: right;
+      margin-right: 5rem;
+      font-size: 3rem;
+      font-weight: 200;
+      color: var(--accent-clr);
+    }
+  }
+  .diff-content-description {
+    p {
+      color: var(--accent-clr);
+    }
+  }
+}

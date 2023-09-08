@@ -1,0 +1,24 @@
+.banner-section{
+    margin-block: 5rem 10rem;
+}
+.banner-section h1{
+    font-family: var(--secondary-font);
+    font-size: var(--header-size-l);
+    text-transform: uppercase;
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+.banner-second-header{
+    padding-inline: 29rem 12rem;
+    h4{
+        font-family: var(--accent-font);
+        color: var(--accent-clr);
+        font-size: var(--header-size-s);
+        text-align: left;
+        span{
+            font-style: italic !important;
+        }
+    }
+}
